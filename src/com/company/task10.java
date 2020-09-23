@@ -16,6 +16,7 @@ public class task10 {
         {
             for (int j = 0;  j < y; j++)
             {
+                System.out.printf("Введите элемент матрицы [%d][%d] \n", i, j);
                 array[i][j] = in.nextInt();
             }
         }
