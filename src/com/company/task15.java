@@ -12,7 +12,7 @@ public class task15 {
 
         for (int i = 0; i < array.length; i++)
         {
-            System.out.println("Введите значение массива " + '[' + i+ ']');
+            System.out.printf("Введите значение массива [%d] \n", i);
             array[i] = in.nextInt();
         }
 
