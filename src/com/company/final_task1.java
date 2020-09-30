@@ -18,6 +18,9 @@ public class final_task1 {
                 if (x>1) {
                     throw new NumberFormatException();
                 }
+                else if (x<0){
+                    throw new NumberFormatException();
+                }
 
                 result += x << power;
             }
